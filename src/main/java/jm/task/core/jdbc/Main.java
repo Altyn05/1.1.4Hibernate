@@ -13,10 +13,11 @@ public class Main {
         userService.createUsersTable();
         userService.saveUser("Иван","Иванов",(byte)20);
         userService.saveUser("Петр","Петров",(byte)21);
+     //   userService.removeUserById(1);
         userService.saveUser("Jon","Jonson",(byte)22);
-        userService.saveUser("Азиз","Азизов",(byte)23);
+   //     userService.saveUser("Азиз","Азизов",(byte)23);
         System.out.println(userService.getAllUsers());
-        userService.cleanUsersTable();
-        userService.dropUsersTable();
+//        userService.cleanUsersTable();
+//        userService.dropUsersTable();
     }
 }
